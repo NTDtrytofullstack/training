@@ -1,0 +1,4 @@
+#Cơ bản
+- khi bạn sử dụng lỗi fmt, thì bạn cần nhớ 4 loại lần lượt là %p(leak địa chỉ binary), %s (leak địa chỉ hay dữ liệu mà địa chỉ đó đang trỏ đến),
+%c(in ra 1byte địa chỉ nó đang trỏ đến), %n(thay đổi dữ liệu của 1 con trỏ dựa trên số ký tự mà đằng trước nó có) và chúng ta có thể chèn theo những gì ta mún bằng câu lệnh sau
+```f'%{thứ ta mún}%c%n' và với %hhn là ghi vào 1 byte , %hn là ghi vào đó 2 byte

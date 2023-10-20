@@ -88,7 +88,7 @@ int __cdecl __noreturn main(int argc, const char **argv, const char **envp)
 
 - ta sẽ đặt breakpoint ở đây để khi nhập vào index ta có thể kiểm tra stack chính xác lỗi OOB diễn ra.
 
-![Alt text](image-6.png)
+![Alt text](image/image-6.png)
 ![Alt text](image-7.png)
 ![Alt text](image-8.png)
 - khi đến đoạn này nó sẽ gọi lên địa chỉ của 1 giá trị = `rax + rdx` khi search thử thì nó ra địa chỉ như ảnh sau.

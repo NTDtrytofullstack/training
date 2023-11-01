@@ -1,4 +1,5 @@
 # out of bounds hay OOB
+- OOB các bạn có thể hiểu cơ bản nó là 1 lỗi khi mà chương trình cho bạn quyền lựa chọn các option nhưng ở các điều kiện để thực hiện các `option` mà chương trình đề ra lại tồn tại 1 số bug trong đó mà ta có thể khai thác đc , để có thể hiểu sâu hơn về `OOB` bạn có thể tham khảo 1 trong số các lỗi `OOB` trong bài sau.
 ## 1. Source
 ```
 int __cdecl __noreturn main(int argc, const char **argv, const char **envp)

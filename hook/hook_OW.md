@@ -5,7 +5,7 @@
     dùng để sửa đổi hành vi thực thi lệnh của các hàm như `malloc`, `realloc` và `free` bằng cách là các hàm trên sẽ gọi lên các biến hook để thực thi 1 địa chỉ mà các biến hook đó trỏ tới.
     ![Alt text](image-1.png)
 - Để có thể hiểu rõ hơn về nguyên lý hoạt động của hook chúng ta có thể tham khao bài sau , 1 trong các cách mà ta có thể `OW hook`.
-## Hướng giải
+## Thực Hành
 ### 1. Source
 ```
 // gcc -o init_fini_array init_fini_array.c -Wl,-z,norelro

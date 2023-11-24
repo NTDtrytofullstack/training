@@ -50,7 +50,7 @@ int __cdecl main(int argc, const char **argv, const char **envp)
 - Sau tất cả chỉ cần nối lên sever và chạy source là thu đc flag thôi.
 ![Alt text](image-13.png)
 - Và thành công rồi `shellcode` của chúng ta đã đúng.
-### 3. Source code
+### 3. Script
 ```
 #!/usr/bin/python3
 
